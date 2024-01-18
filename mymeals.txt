@@ -1,2 +1,3 @@
 chocolate, eggs, platanos
 rice, chicken, salad
+chorizo, rice , salad 
