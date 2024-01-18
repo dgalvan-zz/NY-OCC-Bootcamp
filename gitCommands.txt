@@ -1,0 +1,4 @@
+git -v -- > version of git 
+git ini -- > initialize git repo
+git config -- > global user.name "username " = setting up username
+git config -- > global user.email "email " = setting up email
