@@ -1,0 +1,90 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+span{
+background-color: aquamarine;
+}
+
+
+li{
+    background-color: brown;
+}
+.listClass{
+    background-color: orange;
+}
+
+#listid{
+    background-color: yellow;
+}
+
+li[value="list"]{
+    background-color: green;
+}
+
+.listclass1, .listclass2{
+    background-color: skyblue;
+}
+
+ul .descendent{
+    background-color: indigo;
+    color: white;
+}
+
+/*pseudo classes*/
+.hoverBtn:hover {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+
+}
+
+.activeBtn:active{
+    background-color: darkgrey;
+    color: black;
+
+}
+
+.focusinput:focus{
+    background-color: chartreuse;
+    border-width: 5px;
+}
+
+
+.visitedLink:visited{
+    color:deeppink;
+}
+
+/* pseudo -element */
+.bigletter::first-letter{
+    font-size: 40px;
+}
+.line1::first-line{
+    color: darkorange;
+}
+
+.beforeandafter::before{
+    content: "before";
+    color: red;
+}
+
+.beforeandafter::after{
+    content: "after";
+    color: blue;
+}
+
+.selectparts::selection{
+    background-color: darkmagenta;
+    color: white;
+}
+/* earlier rule */
+.cascade{
+ background-color: red !important;
+}
+
+.cascade{
+    background-color: blue;
+    color: white;
+   }
