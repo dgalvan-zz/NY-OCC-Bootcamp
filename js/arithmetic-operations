@@ -1,0 +1,25 @@
+//operation 
+
+let x = 5;
+let y = 2;
+
+//arithmetc operator
+//addition
+let sum = x+y;
+console.log(sum)
+
+//substraction
+let dif= x - y;
+console.log(dif)
+
+//multiplication
+let mul= x*y;
+console.log(mul)
+
+//divisioin
+
+let div= x/y;
+console.log(div)
+
+let answer = 10+2*23/2
+console.log(answer)
