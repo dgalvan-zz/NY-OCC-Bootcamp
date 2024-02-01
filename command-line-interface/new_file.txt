@@ -1,0 +1,10 @@
+clear-->clean the shell 
+mkdir-->create a folder
+touch-->create a specific file
+ls -->list
+pwd--> show where we are currently 
+cd ..--> folder_name-parents
+rm--> delete file
+rmdir--> delete folder 
+mv--> rename 
+cp-->
